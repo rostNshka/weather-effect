@@ -1,3 +1,5 @@
+@use "./helpers" as *;
+
 html {
   &.is-lock {
     overflow: hidden;
@@ -9,8 +11,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  color: var(--color-gray-60);
-  background-color: var(--color-black-08);
+  color: var(--color-white);
+  background-color: var(--color-ocean-blue);
 }
 
 main {
@@ -71,7 +73,7 @@ a {
   color: inherit;
 
   @include hover {
-    color: var(--color-red-45)
+    color: var(--color-white);
   }
 
   &[class] {

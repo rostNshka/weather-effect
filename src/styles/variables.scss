@@ -1,12 +1,11 @@
 :root {
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-ocean-blue: #0096c7;
+  --color-light-blue: #00b4d8;
+  --color-dark-blue: #023e8a;
 
-  --border: var(--border-width-s) solid var(--color-black-15);
-
-  --border-width-l: 4px;
-  --border-width-m: 3px;
-  --border-width-s: 1px;
+  --border: 1px solid grey;
 
   --border-radius-l: 12px;
   --border-radius-m: 10px;
