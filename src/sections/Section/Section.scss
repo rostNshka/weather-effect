@@ -1,0 +1,64 @@
+@use "../../styles/helpers" as *;
+
+.section {
+  @include abs-center;
+
+  border: var(--border);
+  border-radius: var(--border-radius-s);
+  padding: fluid(128,64);
+  background: linear-gradient(to bottom, var(--color-ocean-blue), var(--color-dark-blue));
+
+  .weather-app  {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: fluid(16,8);
+
+      &__title {
+      }
+
+      &__input {
+        width: 100%;
+        padding: fluid(8,4);
+        border: var(--border);
+        border-radius: var(--border-radius-m);
+      }
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      column-gap: fluid-to-laptop(16,8);
+      border: var(--border);
+      border-radius: var(--border-radius-m);
+
+      &__location {
+        font-size: fluid(32,24);
+        font-weight: 600;
+      }
+      &__icon{
+        @include square(fluid(48,32));
+      }
+      &__temps {
+        font-size: fluid(40,32);
+        color: var(--color-light-blue);
+      }
+      &__condidion {
+        font-size: fluid(24,16);
+      }
+      &__details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
