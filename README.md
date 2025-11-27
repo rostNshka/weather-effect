@@ -1,16 +1,24 @@
-# React + Vite
+## 📝 weather-effect
+Виджет для получения погоды по геолокации или запросу, при разработке использовался следующий API: <a href="https://www.weatherapi.com/">Weather API</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚙️Технологии:
+HTML5,
+CSS3(SASS),
+React,
+Vite
 
-Currently, two official plugins are available:
+## 🚀 Использование:
+Требования: Для установки и запуска проекта, необходим NodeJS v8+.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Установка зависимостей
+Для установки зависимостей, выполните команду: \
+`$ npm i`
 
-## React Compiler
+Запуск Development сервера
+Чтобы запустить сервер для разработки, выполните команду: \
+`$ npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Создание билда \
+Чтобы выполнить production сборку, выполните команду:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`$ npm run build`
