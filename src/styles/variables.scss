@@ -1,0 +1,17 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --border: var(--border-width-s) solid var(--color-black-15);
+
+  --border-width-l: 4px;
+  --border-width-m: 3px;
+  --border-width-s: 1px;
+
+  --border-radius-l: 12px;
+  --border-radius-m: 10px;
+  --border-radius-s: 8px;
+
+  --transition-duration: 0.2s;
+  --transition-duration-longer: 0.4s;
+}
