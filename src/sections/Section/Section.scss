@@ -19,14 +19,13 @@
       justify-content: center;
       padding-bottom: fluid(16,8);
 
-      &__title {
-      }
-
       &__input {
         width: 100%;
         padding: fluid(8,4);
         border: var(--border);
         border-radius: var(--border-radius-m);
+        background-color: var(--color-dark-blue);
+        color: white;
       }
     }
 
@@ -38,6 +37,7 @@
       column-gap: fluid-to-laptop(16,8);
       border: var(--border);
       border-radius: var(--border-radius-m);
+      background-color: var(--color-dark-blue);
 
       &__location {
         font-size: fluid(32,24);
