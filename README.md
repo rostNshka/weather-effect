@@ -22,3 +22,4 @@ Vite
 Чтобы выполнить production сборку, выполните команду:
 
 `$ npm run build`
+![img.png](img.png)
